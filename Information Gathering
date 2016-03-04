@@ -1,1 +1,17 @@
+http://tools.kali.org/tools-listing
+
 acccheck
+========
+Description:
+Attempts to connect to the IPC$ and ADMIN$ shares depending on which flags have been
+chosen, and tries a combination of usernames and passwords in the hope to identify
+the password to a given account via a dictionary password guessing attack.
+
+acccheck Usage Example
+======================
+root@kali:~# acccheck.pl -T smb-ips.txt -v
+Host:192.168.1.201, Username:Administrator, Password:BLANK
+
+********************************************************************************
+amap
+=====
